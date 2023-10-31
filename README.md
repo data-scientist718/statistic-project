@@ -5,13 +5,19 @@
 
 ![TikTok Logo](tiktok-logo.png)
 
-## Overview
+### Overview
 
-This data science project focuses on classifying TikTok content using advanced statistical methods and hypothesis testing. The primary goal is to showcase expertise in data science by applying rigorous statistical techniques to address the classification problem related to TikTok data.
+This data science project focuses on classifying TikTok content using advanced statistical methods and hypothesis testing. The primary goal is to applying rigorous statistical techniques to address the classification problem related to TikTok data.
 
-## Project Purpose
+### Project Purpose
 
-The purpose of this project is to demonstrate proficiency in preparing, creating, and analyzing hypothesis tests and statistical methods in the context of the TikTok classification project. We aim to evaluate the performance of a classification model and determine whether it outperforms random guessing.
+The purpose of this project is to demonstrate proficiency in preparing, creating, and analyzing hypothesis tests and statistical methods in the context of the TikTok classification project.
+
+### Data Source
+
+The dataset used in this project is secondary data obtained from Google. It includes TikTok-related data,
+
+
 
 ## Project Structure
 
