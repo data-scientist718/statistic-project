@@ -5,9 +5,9 @@
 
 ## Table of Content
 
--[Project Overview](#project-overview)
--[Results and Findings](#results-and-findings)
--[Recommendation](#recommendations)
+- [Project Overview](#project-overview)
+- [Results and Findings](#results-and-findings)
+- [Recommendation](#recommendations)
 
 ### Project Overview
 
