@@ -3,6 +3,12 @@
 ## Author: Abd Ur Rehman
 ## Date: 16/06/2023
 
+## Table of Content
+
+-[Project Overview](#project-overview)
+-[Results and Findings](#results-and-findings)
+-[Recommendation](#recommendations)
+
 ### Project Overview
 
 This data science project focuses on classifying TikTok content using advanced statistical methods and hypothesis testing. The primary goal is to applying rigorous statistical techniques to address the classification problem related to TikTok data.
