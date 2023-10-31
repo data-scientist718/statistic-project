@@ -11,7 +11,7 @@
 
 ### Project Overview
 ---
-This data science project focuses on classifying TikTok content using advanced statistical methods and hypothesis testing. The primary goal is to applying rigorous statistical techniques to address the classification problem related to TikTok data.
+This data science project focuses on classifying TikTok content using advanced statistical methods and hypothesis testing. The primary goal is to conduct a hypothesis test to analyze the relationship between verified_status and video_view_count. 
 
 ### Project Purpose
 ---
