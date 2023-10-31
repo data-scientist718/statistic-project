@@ -10,19 +10,19 @@
 - [Recommendation](#recommendations)
 
 ### Project Overview
-
+---
 This data science project focuses on classifying TikTok content using advanced statistical methods and hypothesis testing. The primary goal is to applying rigorous statistical techniques to address the classification problem related to TikTok data.
 
 ### Project Purpose
-
+---
 The purpose of this project is to demonstrate proficiency in preparing, creating, and analyzing hypothesis tests and statistical methods in the context of the TikTok classification project.
 
 ### Data Source
-
+---
 The dataset used in this project is secondary data obtained from Google. It includes TikTok-related data,
 
 ### Tools
-
+---
 - Jupyter Notebook
 - Python
 - python libraries
@@ -33,7 +33,7 @@ The dataset used in this project is secondary data obtained from Google. It incl
   - Scipy.stats
 
 ### Data Cleaning/Preparation
-
+---
 In the initial data preparation phase, we performed the following tasks:
 1. Data loading and inspections.
 2. Handling missing values.
@@ -74,4 +74,3 @@ Continuing the analysis with these recommendations can provide valuable insights
 ### Limitations
 
 I had to remove all Null values from data because they would have affected the accuracy of my conclusions from the Hypothesis testing.
-
