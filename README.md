@@ -22,6 +22,8 @@ The dataset used in this project is secondary data obtained from Google. It incl
 - python libraries
   - Numpy
   - Pandas
+  - Matplotlib
+  - Seaborn
   - Scipy.stats
 
 ### Data Cleaning/Preparation
@@ -39,55 +41,31 @@ In this project, we conduct a two-sample t-test to investigate potential differe
 
 - **$H_A$**: There is a difference in number of views between TikTok videos posted by verified accounts and TikTok videos posted by unverified accounts (any observed difference in the sample data is due to an actual difference in the corresponding population means).
 
+### Results and Findings
 
+Based on the analysis of the dataset, the following key findings were observed:
 
-## Project Structure
+- The p-value for the t-test (pvalue=2.6088823687177823e-120) is extremely small, indicating a high level of statistical significance.
+- With a p-value much smaller than the significance level of 5%, we reject the null hypothesis.
 
-The project is organized into the following sections:
+These findings lead to the following conclusions:
 
-- Data Preprocessing: Explains how we preprocess TikTok data for analysis.
-- Classification Model: Describes the model used for content classification.
-- Hypothesis Testing: Details the statistical methods and hypothesis tests.
-- Results: Presents the findings and analysis of the project.
-- Conclusion: Summarizes the key takeaways and future directions.
+- There is a statistically significant difference in the mean video view count between verified and unverified accounts on TikTok.
+- The analysis reveals that videos from verified accounts tend to have a significantly different average view count compared to videos from unverified accounts.
 
-## Null Hypothesis (H0)
+This suggests potential fundamental behavioral differences between these two groups of TikTok accounts.
 
-The null hypothesis for this project states that there is no significant difference in the classification accuracy of our TikTok classification model compared to a random classifier. In other words, any observed differences in classification accuracy are purely due to random chance, and our model does not outperform random guessing.
+### Recommendations
 
-H0: Classification Accuracy (Model) - Classification Accuracy (Random) = 0
+Based on the observed statistically significant difference in average view counts between videos from verified and unverified accounts, it is recommended to explore the underlying factors contributing to this behavioral difference. Consider the following next steps:
 
-## Usage
+- Investigate the root causes of this difference, such as whether unverified accounts tend to post clickbait content or if they are associated with view count manipulation through spam bots.
+- Explore the creation of a regression model focused on the 'verified_status' variable. A regression model can provide insights into user behavior within the group of verified users.
+- The regression model can help analyze and predict behaviors and characteristics associated with verified accounts, leading to a deeper understanding of the factors influencing user interactions and engagement on TikTok.
 
-To replicate this project or use the provided code, follow these steps:
+Continuing the analysis with these recommendations can provide valuable insights and inform strategies for content creators and platform administrators on TikTok.
 
-1. Clone the repository: `git clone https://github.com/yourusername/tiktok-classification-project.git`
-2. Install the necessary dependencies: `pip install -r requirements.txt`
-3. Follow the Jupyter Notebook files in the `notebooks/` directory for step-by-step analysis.
+### Limitations
 
-## Dependencies
-
-This project relies on the following Python libraries:
-
-- Pandas
-- NumPy
-- Scikit-Learn
-- Matplotlib
-- Jupyter Notebook
-
-Install these libraries using `pip` as mentioned in the 'Usage' section.
-
-## Results
-
-The project's results and detailed analysis can be found in the 'results' directory.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to explore and use this project for educational or reference purposes.
-
-Your feedback and contributions are welcome. If you have any questions or suggestions, please feel free to reach out.
-
-![TikTok Logo](tiktok-logo.png)
+I had to remove all Null values from data because they would have affected the accuracy of my conclusions from the Hypothesis testing.
 
