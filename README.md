@@ -31,6 +31,16 @@ In the initial data preparation phase, we performed the following tasks:
 2. Handling missing values.
 3. Data cleaning and formatting.
 
+## Hypothesis Test
+
+In this project, we conduct a two-sample t-test to investigate potential differences in verified status column
+
+- **$H_0$**: There is no difference in number of views between TikTok videos posted by verified accounts and TikTok videos posted by unverified accounts (any observed difference in the sample data is due to chance or sampling variability).
+
+- **$H_A$**: There is a difference in number of views between TikTok videos posted by verified accounts and TikTok videos posted by unverified accounts (any observed difference in the sample data is due to an actual difference in the corresponding population means).
+
+
+
 ## Project Structure
 
 The project is organized into the following sections:
