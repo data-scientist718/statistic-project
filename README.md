@@ -1,11 +1,9 @@
-# TikTok Classification Data Science Project
+# TikTok Classification Project
 
 ## Author: Abd Ur Rehman
 ## Date: 16/06/2023
 
-![TikTok Logo](tiktok-logo.png)
-
-### Overview
+### Project Overview
 
 This data science project focuses on classifying TikTok content using advanced statistical methods and hypothesis testing. The primary goal is to applying rigorous statistical techniques to address the classification problem related to TikTok data.
 
@@ -17,7 +15,21 @@ The purpose of this project is to demonstrate proficiency in preparing, creating
 
 The dataset used in this project is secondary data obtained from Google. It includes TikTok-related data,
 
+### Tools
 
+- Jupyter Notebook
+- Python
+- python libraries
+  - Numpy
+  - Pandas
+  - Scipy.stats
+
+### Data Cleaning/Preparation
+
+In the initial data preparation phase, we performed the following tasks:
+1. Data loading and inspections.
+2. Handling missing values.
+3. Data cleaning and formatting.
 
 ## Project Structure
 
