@@ -12,12 +12,10 @@
 
 ### Project Overview
 
----
 This data science project focuses on classifying TikTok content using advanced statistical methods and hypothesis testing. The primary goal is to conduct a hypothesis test to analyze the relationship between verified_status and video_view_count.
 
 ### Project Purpose
 
----
 The purpose of this project is to demonstrate proficiency in preparing, creating, and analyzing hypothesis tests and statistical methods in the context of the TikTok classification project.
 
 ### Data Source
@@ -25,8 +23,6 @@ The purpose of this project is to demonstrate proficiency in preparing, creating
 The dataset used in this project is secondary data obtained from Google. It includes TikTok-related data,
 
 ### Tools
-
----
 
 - Jupyter Notebook
 - Python
@@ -39,16 +35,14 @@ The dataset used in this project is secondary data obtained from Google. It incl
 
 ### Data Cleaning/Preparation
 
----
 In the initial data preparation phase, we performed the following tasks:
 
 1. Data loading and inspections.
 2. Handling missing values.
 3. Data cleaning and formatting.
 
-## Hypothesis Test
+### Hypothesis Test
 
----
 In this project, we conduct a two-sample t-test to investigate potential differences in verified status column
 
 - **$H_0$**: There is no difference in number of views between TikTok videos posted by verified accounts and TikTok videos posted by unverified accounts (any observed difference in the sample data is due to chance or sampling variability).
@@ -57,7 +51,6 @@ In this project, we conduct a two-sample t-test to investigate potential differe
 
 ### Results and Findings
 
----
 Based on the analysis of the dataset, the following key findings were observed:
 
 - The p-value for the t-test (pvalue=2.6088823687177823e-120) is extremely small, indicating a high level of statistical significance.
@@ -72,7 +65,6 @@ This suggests potential fundamental behavioral differences between these two gro
 
 ### Recommendations
 
----
 Based on the observed statistically significant difference in average view counts between videos from verified and unverified accounts, it is recommended to explore the underlying factors contributing to this behavioral difference. Consider the following next steps:
 
 - Investigate the root causes of this difference, such as whether unverified accounts tend to post clickbait content or if they are associated with view count manipulation through spam bots.
@@ -83,5 +75,4 @@ Continuing the analysis with these recommendations can provide valuable insights
 
 ### Limitations
 
----
 I had to remove all Null values from data because they would have affected the accuracy of my conclusions from the Hypothesis testing.
